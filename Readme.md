@@ -15,10 +15,24 @@
 
 #### 파일 위치를 동일하게 작성하였습니다. 
 
+|java|kotlin|
+|---|---|
+|![폴더 구조 자바](https://user-images.githubusercontent.com/30148662/226094055-5d339435-9401-44bd-80a0-7004be672a20.PNG)|![폴더 구조 코틀린](https://user-images.githubusercontent.com/30148662/226094062-22287f1e-eac2-4839-a347-6172654ac6e1.PNG)|
+|![폴더 구조 자바 2](https://user-images.githubusercontent.com/30148662/226094152-9beca374-edc3-4433-831e-ff40978791cc.PNG)|![폴더 구조 코틀린 2](https://user-images.githubusercontent.com/30148662/226094158-f2021ac0-2593-4981-8e73-7056eb99cddb.PNG)|
+
 #### 원본 코드와 최대한 동일하게 동작하도록 작성하였지만, 코틀린의 언어적 특성으로 인해 생략되거나 변경된 코드들이 있습니다. (ex. 도메인 엔티티)
 
-#### 다만, kotlin test framework인 kotest의 편리함을 널리 알리고자, assertj 대신 kotest를 사용하였습니다.
+|java|kotlin|
+|---|---|
+|![자바 2](https://user-images.githubusercontent.com/30148662/226094316-34f81e81-cc96-484d-b9fc-afdfbf47ce01.PNG)|![코틀린 2](https://user-images.githubusercontent.com/30148662/226094322-82b4c24c-d629-46f0-bc53-b8f549a983a7.PNG)|
 
+- 코틀린에서는 DiscountPolicy에 null이 들어올 수 없어 null check 로직이 없어짐
+
+#### kotlin test framework인 kotest의 편리함을 널리 알리고자, assertThat 대신 shouldBe를 사용하였습니다.
+
+|java|kotlin|
+|---|---|
+|![테스트 자바 1](https://user-images.githubusercontent.com/30148662/226094509-a0949e09-8f57-4d9c-8523-f43b81d804ab.PNG)|![테스트 코틀린 1](https://user-images.githubusercontent.com/30148662/226094514-4ad05bf0-08f1-414a-96a1-189916e7ae63.PNG)|
 
 ## 레퍼런스
 
